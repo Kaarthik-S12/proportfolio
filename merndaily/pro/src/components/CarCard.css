@@ -1,0 +1,60 @@
+/* CarCard.css */
+.car-card {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .car-image {
+    width: 350px;
+    height: 250px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .car-image-hidden {
+    opacity: 0;  /* Hide static image */
+  }
+  
+  .car-image-hover {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .car-name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .car-price {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .fuel-type {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .compare-btn {
+    padding: 8px 16px;
+    background-color: #00ff4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .compare-btn:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,19 @@
+/* Footer fade-in animation */
+@keyframes fadeInFooter {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    animation: fadeInFooter 1s ease-in-out;
+  }
+  

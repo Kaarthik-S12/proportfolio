@@ -1,0 +1,46 @@
+/* Basic styling for the pages */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007BFF;
+}
+
+/* Layout for Home and Compare pages */
+.home-page, .compare-page {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+/* Flexbox layout for side-by-side pages */
+.home-page, .compare-page {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
